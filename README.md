@@ -19,6 +19,6 @@
 7. Luego ejecutar el comando
 
    ```sh
-    npm run uwu
+    npm run iniciar
    ```
 8. En un navegador entrar a localhost:3000

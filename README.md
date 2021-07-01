@@ -1,9 +1,9 @@
 # Cuestionario-Node
 
 ## Pre-Requisitos
-- Xampp
-- Node.js
-- Visual Code o Terminal de Comandos
+* [Node.js](https://nodejs.org/en/)
+* [Xampp](https://www.apachefriends.org/es/download.html)
+* [Visual Studio Code](https://code.visualstudio.com/) (O cualquier IDE con terminal)
 
 ## Como instalar
 1. Abrir Xampp y prender Apache y MySql
@@ -14,4 +14,9 @@
    ```sh
     npm install
    ```
-6. Esperar a que se terminen de instalar los modulos y luego
+6. Esperar a que se terminen de instalar los modulos
+7. Luego ejecutar el comando
+   ```sh
+    npm run uwu
+   ```
+8. En un navegador entrar a localhost:3000

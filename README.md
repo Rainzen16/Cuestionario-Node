@@ -5,6 +5,13 @@
 * [Xampp](https://www.apachefriends.org/es/download.html)
 * [Visual Studio Code](https://code.visualstudio.com/) (O cualquier IDE con terminal)
 
+## Hecho con
+* Node.js
+* Express
+* Express MyConnection
+* MySql
+* EJS
+
 ## Como instalar
 1. Abrir Xampp y prender Apache y MySql
 2. Crear una base de datos en PhpMyAdmin con el nombre "basededatospreguntas"

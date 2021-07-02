@@ -3,7 +3,8 @@ const controller = require("../controllers/controlCliente");
 const router = express.Router();
 
 //ruta que utiliza la funcion list de controller
-router.get("/", controller.list);
+router.get("/", controller.Indice);
+router.get("/preguntas", controller.list);
 router.post("/add", controller.save);
 router.get("/delete/:id", controller.delete);
 

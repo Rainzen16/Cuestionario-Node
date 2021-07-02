@@ -1,5 +1,18 @@
 const controller = {};
 
+controller.Indice = (req, res) => {
+  req.getConnection((err, conn) => {
+    conn.query("SELECT * FROM preguntas", (err, preguntas) => {
+      if (err) {
+        res.json(err);
+      }
+
+      res.render("indice", {
+        data: preguntas,
+      });
+    });
+  });
+};
 //funcion de lectura de tabla 'users'
 controller.list = (req, res) => {
   req.getConnection((err, conn) => {

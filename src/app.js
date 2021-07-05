@@ -36,6 +36,9 @@ app.use(express.urlencoded({ extended: false }));
 //Rutas
 app.use("/", rutasCliente);
 
+//Para el uso de archivos CSS 
+app.use(express.static(__dirname + '/public'));
+
 //inicia el servidor
 app.listen(app.get("port"), () => {
   console.log("Server en el puerto 3000");

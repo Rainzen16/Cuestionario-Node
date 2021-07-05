@@ -11,10 +11,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://bootswatch.com/5/morph/bootstrap.min.css"
-    />
+    <link href="/css/preguntas.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -44,12 +41,12 @@
                 <td><%= data[i].descripcion %></td>
 <td>
                   <a href="/update/<%= data[i].id %>" class="btn btn-outline-primary" 
-                    ><i class="fas fa-wrench" ></i></a
+                    >Modificar</a
                   >
                 </td>
                 <td>
                   <a href="/delete/<%= data[i].id %>" class="btn btn-outline-danger"
-                    ><i class="fas fa-trash"></i></a
+                    >Borrar</a
                   >
                 </td>
                 

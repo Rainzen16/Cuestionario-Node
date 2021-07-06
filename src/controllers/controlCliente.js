@@ -34,7 +34,7 @@ controller.save = (req, res) => {
   req.getConnection((err, conn) => {
     conn.query("INSERT INTO preguntas set ?", [datos], (err, cities) => {
       console.log(cities);
-      res.redirect("/");
+      res.redirect("/preguntas");
     });
   });
 };
